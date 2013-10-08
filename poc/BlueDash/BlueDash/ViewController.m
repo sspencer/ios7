@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 PlayNetwork. All rights reserved.
 //
 
+// https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW12
+
 #import "ViewController.h"
 #import <CoreLocation/CoreLocation.h>
 #import <CoreBluetooth/CoreBluetooth.h>

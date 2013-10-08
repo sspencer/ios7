@@ -91,7 +91,7 @@
 
         self.statusLabel.text = @"In Range";
         self.rssiLabel.text = [NSString stringWithFormat:@"%ld", (long)nearest.rssi];
-
+        nearest.accuracy
         if (CLProximityImmediate == nearest.proximity) {
             self.distanceLabel.text = @"Close";
             self.versionLabel.text = [NSString stringWithFormat:@"%@:%@", nearest.major, nearest.minor];

@@ -22,6 +22,7 @@
 		338EC0EB17FF44B800368F67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 338EC0E917FF44B800368F67 /* InfoPlist.strings */; };
 		338EC0ED17FF44B800368F67 /* BlueDashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338EC0EC17FF44B800368F67 /* BlueDashTests.m */; };
 		338EC0F717FF453E00368F67 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338EC0F617FF453E00368F67 /* CoreLocation.framework */; };
+		33A911C91804A9AA00202B39 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A911C81804A9AA00202B39 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		338EC0EA17FF44B800368F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		338EC0EC17FF44B800368F67 /* BlueDashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueDashTests.m; sourceTree = "<group>"; };
 		338EC0F617FF453E00368F67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33A911C81804A9AA00202B39 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A911C91804A9AA00202B39 /* CoreBluetooth.framework in Frameworks */,
 				338EC0F717FF453E00368F67 /* CoreLocation.framework in Frameworks */,
 				338EC0C417FF44B800368F67 /* CoreGraphics.framework in Frameworks */,
 				338EC0C617FF44B800368F67 /* UIKit.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		338EC0C017FF44B800368F67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33A911C81804A9AA00202B39 /* CoreBluetooth.framework */,
 				338EC0F617FF453E00368F67 /* CoreLocation.framework */,
 				338EC0C117FF44B800368F67 /* Foundation.framework */,
 				338EC0C317FF44B800368F67 /* CoreGraphics.framework */,
@@ -466,6 +470,7 @@
 				338EC0F217FF44B800368F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338EC0F317FF44B800368F67 /* Build configuration list for PBXNativeTarget "BlueDashTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				338EC0F517FF44B800368F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
